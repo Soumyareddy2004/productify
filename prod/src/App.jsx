@@ -22,10 +22,9 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-      <Route path="/" element={<LoginPage />} /> {/* Redirect to Login by default */}
+      <Route path="/" element={<ShopPage />} /> {/* Redirect to Login by default */}
         <Route path="/login" element={<LoginPage/>} />
         <Route path="/signup" element={<Signup />} />
-        <Route path='/shop' element={<Shop/>}/>
         <Route path="/stitch" element={<StitchVastra />} />
         <Route path="/custom-tailoring" element={<CustomTailoring />} />
         <Route path="/alterations" element={<AlterationsPage />} />
